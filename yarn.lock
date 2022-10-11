@@ -278,11 +278,14 @@
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.10.tgz#78a42897c2cf8db9fd5f1811f7590393b77774c7"
   integrity sha512-w0Ou3Z83LOYEkwaui2M8VwIp+nLi/NA60lBLMvaJ+vXVMcsARYdEzLNE7RSm4+lSg4zq4d7fAVuzk7PNQ5JFgg==
+<<<<<<< HEAD
 
 "@iconscout/vue-unicons@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@iconscout/vue-unicons/-/vue-unicons-0.0.3.tgz#3569422a46c2b242a39a5654b3f4dbe13a19e706"
   integrity sha512-wVYaEPNXNCqYoyrhEMoYAm8rxFnPmXLduzH3WmROTdU0D1qcuHj5AjxSCJ+OOs9+Tz3woUjDRjINlZHQmdiPBw==
+=======
+>>>>>>> 3371c8846928df3bd2a89a7110ab11eff8e9150d
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
@@ -1618,6 +1621,7 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
+<<<<<<< HEAD
 source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
@@ -1633,6 +1637,28 @@ sourcemap-codec@^1.4.8:
   resolved "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
+=======
+simple-icons@^5.3.0:
+  version "5.24.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.24.0.tgz#6485a5713c2e5758605b461b833396c4874e9e4d"
+  integrity sha512-wKHeqUBsHYB5KPqdc3e7BGQPQCx/NbHfJuukjo70ABGk6hegjTDSoJhsSEcVadknVG4W3+jcC3G3RbytJnapGQ==
+
+source-map-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+  integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+source-map@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
+sourcemap-codec@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
+  integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
+
+>>>>>>> 3371c8846928df3bd2a89a7110ab11eff8e9150d
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz"
@@ -1816,6 +1842,16 @@ vue-tsc@^0.40.7:
     "@volar/vue-language-core" "0.40.13"
     "@volar/vue-typescript" "0.40.13"
 
+<<<<<<< HEAD
+=======
+vue3-icon@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vue3-icon/-/vue3-icon-2.0.0.tgz#6a7b16db190da982d120307b36556ebbed7b2d4d"
+  integrity sha512-7uZLM/9ajMlN4Xlr5t7xVPg6leMg1xgOYw7PPxuGohIntlxfPWk27gs8wJ/p63tjIlPsk38HwODpTmEUPqDudw==
+  dependencies:
+    simple-icons "^5.3.0"
+
+>>>>>>> 3371c8846928df3bd2a89a7110ab11eff8e9150d
 vue@^3.2.38:
   version "3.2.40"
   resolved "https://registry.npmjs.org/vue/-/vue-3.2.40.tgz"
