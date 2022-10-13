@@ -1,8 +1,8 @@
 <script setup lang="ts">
 // import component
-import Header from "../components/Header.vue";
-import Form from "../components/Form.vue";
-import Footer from "../components/Footer.vue";
+import Header from "../templates/Header.vue";
+import Footer from "../templates/Footer.vue";
+import LeftPage from "../organizms/leftPage.vue";
 </script>
 
 <template>
@@ -10,13 +10,11 @@ import Footer from "../components/Footer.vue";
     <Header />
     <div class="grid grid-cols-3">
       <div class="col-span-1">
-        <div class="mx-[10px] my-[100px]">
-          <Form />
-        </div>
+        <div class="mx-10 my-[100px]"><LeftPage /></div>
       </div>
       <div class="col-span-2"></div>
     </div>
-    <div class="fixed bottom-0 left-[50%]">
+    <div class="fixed bottom-0">
       <Footer />
     </div>
   </div>
