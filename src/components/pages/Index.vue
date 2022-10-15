@@ -10,7 +10,7 @@ import LeftPage from "../organizms/leftPage.vue";
     <Header />
     <div class="grid grid-cols-3">
       <div class="col-span-1">
-        <div class="mx-10 my-[100px]"><LeftPage /></div>
+        <div class="mx-10 my-[70px]"><LeftPage /></div>
       </div>
       <div class="col-span-2"></div>
     </div>
