@@ -6,13 +6,12 @@ type CheckType = {
   price: number;
 };
 
-const useCheckStore = defineStore("useCheckStore", () => {
+export const useCheckStore = defineStore("useCheckStore", () => {
   const AllCheck: Array<CheckType> = reactive([]);
   const newCheck = reactive<CheckType>({ title: "", price: 0 });
 
-  const addCheck = (data: CheckType) => {
-    console.log(`購入品の項目は:${data.title}`);
-    console.log(`購入品の金額は:${data.price}`);
+  const addCheck = () => {
+    alert(`title is ${newCheck.title} and price is ${newCheck.price}`);
   };
 
   const deleteCheck = (index: number) => {
