@@ -1,7 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref, computed } from "vue";
+// detect scroll
+const is_scroll = ref<string>("");
+window.addEventListener("scroll", () => {
+  if (window.scrollY == 0) {
+    is_scroll.value = "";
+  } else {
+    is_scroll.value = "opacity-30";
+  }
+});
+</script>
 
 <template>
-  <nav class="sticky top-0 z-50 bg-white shadow-lg">
+  <nav class="sticky top-0 z-50 bg-white shadow-lg" v-bind:class="is_scroll">
     <div class="items-center justify-between px-8 py-2 md:flex md:px-12">
       <div class="flex items-center justify-between">
         <div class="text-2xl font-bold text-gray-800 md:text-3xl">
