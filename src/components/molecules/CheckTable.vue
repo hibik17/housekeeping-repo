@@ -4,7 +4,7 @@ import TableTbody from "../atoms/tableTbody.vue";
 </script>
 
 <template>
-  <table class="w-full bg-white rounded-md table-auto">
+  <table class="w-full bg-white rounded-md table-auto sm:mx-5">
     <thead class="text-xs font-semibold text-gray-400 uppercase">
       <TableThead />
     </thead>

@@ -9,7 +9,7 @@ import rightPage from "../organizms/rightPage.vue";
 <template>
   <div class="w-full min-h-screen bg-slate-100">
     <Header />
-    <div class="grid grid-cols-3">
+    <div class="md:grid-cols-3 md:grid">
       <div class="col-span-1">
         <div class="mx-10 my-[70px]"><LeftPage /></div>
       </div>

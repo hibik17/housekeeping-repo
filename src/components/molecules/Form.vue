@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useCheckStore } from "../../stores/useCheckStore";
-
-const { newCheck, addCheck } = useCheckStore();
+const { newCheck, addCheck, checkTitle, checkPrice } = useCheckStore();
 </script>
 
 <template>
@@ -12,6 +11,7 @@ const { newCheck, addCheck } = useCheckStore();
       </label>
       <input
         class="w-full px-3 py-2 leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+        v-bind:class="{checkTitle ? 'border-red-400' : '' }"
         type="text"
         placeholder="Title"
         v-model="newCheck.title"
@@ -23,6 +23,7 @@ const { newCheck, addCheck } = useCheckStore();
       </label>
       <input
         class="w-full px-3 py-2 mb-3 leading-tight text-gray-700 border rounded shadow appearance-none -red-500 focus:outline-none focus:shadow-outline"
+        v-bind:class="{checkPrice ? 'border-red-400' : ''}"
         type="number"
         placeholder="price"
         v-model="newCheck.price"
