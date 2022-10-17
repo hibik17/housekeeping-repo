@@ -8,10 +8,17 @@ type CheckType = {
 
 export const useCheckStore = defineStore("useCheckStore", () => {
   const AllCheck: Array<CheckType> = reactive([]);
-  const newCheck = reactive<CheckType>({ title: "", price: 0 });
+  let newCheck = reactive<CheckType>({ title: "", price: 0 });
 
   const addCheck = () => {
-    alert(`title is ${newCheck.title} and price is ${newCheck.price}`);
+    console.log("start insert new check");
+    AllCheck.push({
+      title: newCheck.title,
+      price: newCheck.price,
+    });
+
+    newCheck = { title: "", price: 0 };
+    console.log(AllCheck);
   };
 
   const deleteCheck = (index: number) => {
