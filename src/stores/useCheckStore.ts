@@ -6,8 +6,15 @@ type CheckType = {
   price: number;
 };
 
+const defaultData = [
+  { title: "test", price: 2000 },
+  { title: "test", price: 2000 },
+  { title: "test", price: 2000 },
+  { title: "test", price: 2000 },
+];
+
 export const useCheckStore = defineStore("useCheckStore", () => {
-  const AllCheck: Array<CheckType> = reactive([]);
+  const AllCheck: Array<CheckType> = reactive(defaultData);
   let newCheck = reactive<CheckType>({ title: "", price: 0 });
 
   const addCheck = () => {
