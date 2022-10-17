@@ -4,7 +4,7 @@ import FormTitle from "../atoms/FormTitle.vue";
 </script>
 
 <template>
-  <div>
+  <div class="fixed">
     <FormTitle />
     <Form />
   </div>
