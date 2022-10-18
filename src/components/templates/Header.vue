@@ -24,23 +24,35 @@ const is_active = ref<tabType>("home");
       <div class="flex flex-col hidden -mx-2 md:flex-row md:block">
         <a
           href="#"
-          class="px-2 py-2 text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
-          v-bind:class="[is_active === 'home' ? 'bg-red-400' : '']"
+          class="px-2 py-2 text-gray-800 rounded hover:-translate-y-0.5 md:mx-2"
+          :class="{ 'border-b-2 border-indigo-500': is_active === 'home' }"
           @click="
             () => {
-              is_active = 'about';
+              is_active = 'home';
             }
           "
           >Home</a
         >
         <a
           href="#"
-          class="px-2 py-2 text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
+          class="px-2 py-2 text-gray-800 rounded hover:-translate-y-0.5 md:mx-2"
+          :class="{ 'border-b-2 border-indigo-500': is_active === 'about' }"
+          @click="
+            () => {
+              is_active = 'about';
+            }
+          "
           >About</a
         >
         <a
           href="#"
-          class="px-2 py-2 text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
+          class="px-2 py-2 text-gray-800 rounded hover:-translate-y-0.5 md:mx-2"
+          :class="{ 'border-b-2 border-indigo-500': is_active === 'contact' }"
+          @click="
+            () => {
+              is_active = 'contact';
+            }
+          "
           >Contact</a
         >
       </div>
