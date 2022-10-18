@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
   if (window.scrollY == 0) {
     is_scroll.value = "";
   } else {
-    is_scroll.value = "opacity-50";
+    is_scroll.value = "bg-transparent";
   }
 });
 </script>
