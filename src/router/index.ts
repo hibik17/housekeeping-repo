@@ -11,11 +11,6 @@ const router = createRouter({
       component: Index,
     },
     {
-      path: "/todos",
-      name: "todos",
-      component: Index,
-    },
-    {
       path: "/*",
       name: "NotFound",
       component: NotFound,
