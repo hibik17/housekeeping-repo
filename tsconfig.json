@@ -7,7 +7,9 @@
       "@/*": ["./src/*"]
     }
   },
-
+  "devServer": {
+    "proxy": "https://jsonplaceholder.typicode.com/users"
+  },
   "references": [
     {
       "path": "./tsconfig.config.json"
