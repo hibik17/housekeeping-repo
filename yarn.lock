@@ -1830,6 +1830,11 @@ vue-tsc@^0.40.7:
     "@volar/vue-language-core" "0.40.13"
     "@volar/vue-typescript" "0.40.13"
 
+vue3-carousel@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/vue3-carousel/-/vue3-carousel-0.2.4.tgz#03f2ea3c07acfc9aa71ccdc1ca89d1482e73bb2b"
+  integrity sha512-6QtXKMIzzLj7zCPTky50d5nxRLxuvH6OPtfRn41NkejkX5hov6G2ZdxEfWXO20f7MyW2nbIdAqNjw3dGTvJn4g==
+
 vue3-icon@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue3-icon/-/vue3-icon-2.0.0.tgz#6a7b16db190da982d120307b36556ebbed7b2d4d"
